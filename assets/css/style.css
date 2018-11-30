@@ -1,0 +1,174 @@
+
+@font-face {
+    font-family: 'SutonnyMj';
+    src: url('../fonts/SutonnyMj.ttf'),
+    url('../fonts/sutonnymj.woff2') format('woff2'),
+    url('../fonts/sutonnymj.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tonny71mjregular';
+    src: url('../fonts/tonny71mj-webfont.ttf'),
+    url('../fonts/tonny71mj-webfont.woff2') format('woff2'),
+    url('../fonts/tonny71mj-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'NikoshBAN';
+    src: url('../fonts/NikoshBAN.woff2') format('woff2'),
+    url('../fonts/NikoshBAN.woff') format('woff'),
+    url('../fonts/NikoshBAN.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+#text {
+    font-size: 18px;
+    height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 10px;
+    border: 1px solid #ddd;
+    line-height: 45px;
+    font-family: 'NikoshBAN';
+}
+#input {
+    font-family: 'NikoshBAN';
+    font-size: 20px;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 1px solid #1ca0dc;
+}
+.time {
+    display: flex;
+    justify-content: space-evenly;
+}
+#timer {
+    background: #5ee0d5;
+    padding: 5px;
+    border-radius: 3px;
+    color: #010506;
+    font-weight: bold;
+    margin-right: 20px;
+    font-family: monospace;
+}
+#timeLeft {
+    background: #5ec2e0;
+    padding: 5px;
+    border-radius: 3px;
+    color: #010506;
+    font-weight: bold;
+    margin-right: 20px;
+    font-family: monospace;
+}
+p#info {
+    margin: 0;
+    margin-top: -18px;
+    background: #fbfbfb;
+    padding: 20px;
+}
+
+p#info p {
+    background: #ffffff;
+    padding: 6px 7px;
+    border: 1px solid #f1f1f1;
+    font-family: monospace;
+    color: #010506;
+    border-radius: 3px;
+    font-size: 14px;
+    margin: 5px 0px;
+    font-weight: bold;
+}
+.hightlight {
+    font-weight: lighter;
+    background: #f1f1f1;
+    border-radius: 3px;
+    padding: 0px 16px;
+    display: inline-block;
+    font-size: 20px;
+    transition: width 0.3s;
+    line-height: 35px;
+    font-weight: bold;
+    color: cornflowerblue;
+    vertical-align: middle;
+}
+.correct {
+    color: green;
+}
+.error {
+    color: red;
+}
+.ll {
+    width: 80%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.ll > * {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#input:disabled {
+    border: 1px solid rgb(169, 169, 169);
+}
+#input::placeholder {
+    color: rgba(26, 50, 53, 0.17);
+    text-align: center;
+    padding-top: 77px;
+    font-weight: bold;
+}
+
+.setting {
+    display: flex;
+    border: 1px solid #ddd;
+    padding: 10px 30px;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    color: #81828a;
+    font-family: monospace;
+}
+
+.setting ul li {
+    margin-bottom: 15px;
+}
+
+.box {
+    border: 2px solid #f3f1f5;
+    padding: 20px;
+    color: #81828a;
+    margin-bottom: 20px;
+}
+
+.startTyping {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    text-decoration: none;
+    color: deepskyblue;  
+    font-family: monospace; 
+    border: 1px solid;  
+    display: inline-block;  
+    padding: 10px 15px;
+    transition: 1s all;
+}
+.startTyping:hover {
+    background: deeppink;
+    border: 1px solid deeppink;
+    color: #fff;
+}
+
+.home {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 3px;
+    color: deepskyblue;
+}
