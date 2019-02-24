@@ -174,6 +174,7 @@
                     <p>Correct word: ${this.totalCorrectedWord}</p>
                     <p>Incorrect word: ${this.totalInCorrectWord}</p>
                     <p>Accuracy : ${this.accuracy}%</p>
+                    <p><button onclick="window.location.reload()">Test Again</button>
                 `;
             }
 
