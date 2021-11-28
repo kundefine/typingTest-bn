@@ -24,8 +24,8 @@
 			<li><strong>Bijoy Classic</strong> and <strong>Bijoy Ekkator</strong> are same but over here you have to use <strong>Bijoy Ekkator.</strong></li>
 			<li>Download <strong>Bijoy Ekkator</strong>
 				<ul>
-					<li><a href="assets/media/Bijoy-Ekattor-mini.zip">Mini Size-50mb</a></li>
-					<li><a href="assets/media/Bijoy-Ekattor-big.zip">Big Size-236mb</a></li>
+					<li><a href="ahttps://drive.google.com/drive/folders/1n2r86XbnW2e_MtIC_FtWM2ZezZrN0LJJ?usp=sharing">Mini Size-50mb</a></li>
+					<li><a href="https://drive.google.com/file/d/1s8ZHYDVhvS5pmw_bGMuM8b2Zj6B9D-Nu/view?usp=sharing">Big Size-236mb</a></li>
 				</ul>
 			</li>
 		</ul>
